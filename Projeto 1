@@ -1,0 +1,35 @@
+status = "seja bem vindo ao meu primeiro projeto"
+print(status)
+input1 = input("me fala qual é o seu nome para nos conhercemos:")
+print(input1)
+status = "que nome legal mano"
+print(status)
+status2 = "sou um programador pequeno e estou aprendendo a programar no mimo"
+print(status2)
+conversa = input("e quantos anos tu tem:")
+print(conversa)
+resposta = "nossa que legal, eu tenho 11 anos"
+import time
+time.sleep(2)
+print(resposta)
+status4 = "estou fascinado com o mundo da programação, e como ele pode ser uma boa oportunidade de trabalho pra muitas pessoas"
+print(status4)
+import time
+time.sleep(8)
+status5 = "obrigado por ler meu primeiro projeto no replit, esse site é muito legal e muito util"
+print(status5)
+import time
+time.sleep(6)
+status6 = "este é o primeiro de muitos outros projetos que eu vou fazer, irei me tornar um programador de sucesso"
+print(status6)
+import os
+os.system('cls' if os.name == 'nt' else 'clear')
+print("\033[1;37;40m" + " " * 10 + status + " " * 10)
+print("\033[1;37;40m" + " " * 10 + input1 + " " * 10)
+print("\033[1;37;40m" + " " * 10 + status + " " * 10)
+print("\033[1;37;40m" + " " * 10 + status2 + " " * 10)
+print("\033[1;37;40m" + " " * 10 + conversa + " " * 10)
+print("\033[1;37;40m" + " " * 10 + resposta + " " * 10)
+print("\033[1;37;40m" + " " * 10 + status4 + " " * 10)
+print("\033[1;37;40m" + " " * 10 + status5 + " " * 10)
+print("\033[1;37;40m" + " " * 10 + status6 + " " * 10)
